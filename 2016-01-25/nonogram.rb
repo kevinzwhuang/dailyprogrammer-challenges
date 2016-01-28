@@ -5,6 +5,7 @@ class Nonogram
 
 	def row
 		@row = ""
+		# 		string.scan((\**)(\s*)(\**)
 		skip = false
 		@string.split("").each do |character|
 			if character == "\n"
