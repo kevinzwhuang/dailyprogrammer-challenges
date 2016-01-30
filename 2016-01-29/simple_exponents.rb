@@ -1,3 +1,5 @@
+# Simple Exponent Method
+
 def simple_exponents(base, n)
 	
 	([base] * n).reduce(&:*)
